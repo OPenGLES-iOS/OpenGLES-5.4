@@ -235,13 +235,13 @@ typedef enum {
     if (tag == 2) {
         switch (selected) {
             case 1:
-                thirdAxis = ScenYAxis;
+                secondAxis = ScenYAxis;
                 break;
             case 2:
-                thirdAxis = ScenZAxis;
+                secondAxis = ScenZAxis;
                 break;
             default:
-                thirdAxis = SceneXAxis;
+                secondAxis = SceneXAxis;
                 break;
         }
     }
